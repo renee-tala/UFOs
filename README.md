@@ -1,7 +1,16 @@
 # UFOs
 
-## Overview of Project: Explain the purpose of this analysis.
+## Overview of Project: 
+The purpose of this project is to create a webpage that contains UFO sightings information. We will extract and create a table of the data, but the most important part is the ability to filter through multiple criteria to gain an in depth analysis of UFO sightings. 
 
-## Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+- Resources:
+  - HTML, CSS
+  - Javascript
+  - Bootstrap
 
-## Summary: In a summary statement, describe one drawback of this new design and two recommendations for further developme
+## Results: 
+The table contains information by Date, City, State, Country, Shape (of sighting), Duration, and Comments on the sighting. The filter allows to search through every category except Duration and Comments.  
+
+## Summary: 
+A major drawback of this filter is entering the data in the search bar; it must be exactly the same as it is entered in the data file. If someone captializes something that wasn't capitalized, it won't show up. If you were to misspell a word or enter the data incorrectly, it won't return any results. 
+Additionally, I suggest allowing filtering for multiple criteria at once. Creating a multiple selection tool to search both circle and sphere shapes at once, for example. As well as adding a filtering criteria for duration, staggered so that you can search in chunks of time. 
